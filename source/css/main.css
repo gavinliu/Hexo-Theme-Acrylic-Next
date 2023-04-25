@@ -1783,9 +1783,9 @@ blockquote footer cite::before {
   text-align: center;
 }
 
-#aside-content .aside-list>.aside-list-item:last-child {
+/* #aside-content .aside-list>.aside-list-item:last-child {
   padding-bottom: 0px;
-}
+} */
 
 #aside-content .aside-list>.aside-list-item .thumbnail {
   overflow: hidden;
@@ -9155,7 +9155,7 @@ figure {
   font-family: 'Font Awesome 5 Brands';
   color: var(--heo-fontcolor);
   opacity: 0.4;
-  filter: blur(7px);
+  filter: blur(0px);
 }
 
 @media screen and (max-width: 768px) {
